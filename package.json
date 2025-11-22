@@ -1,0 +1,33 @@
+{
+  "name": "payment-page-scanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "scan": "ts-node src/scanner.ts",
+    "diff": "ts-node src/diff.ts",
+    "report": "ts-node src/report.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alsalmone/payment-page-scanner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alsalmone/payment-page-scanner/issues"
+  },
+  "homepage": "https://github.com/alsalmone/payment-page-scanner#readme",
+  "dependencies": {
+    "puppeteer": "^24.31.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

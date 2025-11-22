@@ -1,0 +1,10 @@
+# Node / build
+node_modules/
+dist/
+
+# Scan outputs & reports (keep out of Git)
+output/
+
+# Misc
+*.log
+.env
